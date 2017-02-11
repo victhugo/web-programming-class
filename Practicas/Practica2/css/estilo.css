@@ -6,7 +6,7 @@ html, button, input, select, textarea{
 body{
 	font-size: 1em;
 	line-height: 1.4px;
-	font: 16px Helvetica;
+	font: 16px 'Josefin Sans', sans-serif;
 	text-align: justify;
 }
 
@@ -21,6 +21,8 @@ hr{
 
 h1{
 	color: #222;
+	font-family: 'Quicksand', sans-serif;
+	text-shadow:0px 2px 3px #000000;
 }
 
 .container{
@@ -64,6 +66,11 @@ nav a{
 	font-weight: bold;
 	color: white;
 	background: #e44d26;
+	transform: rotate(2deg) scale(1) skew(1deg) translate(0px);
+-webkit-transform: rotate(2deg) scale(1) skew(1deg) translate(0px);
+-moz-transform: rotate(2deg) scale(1) skew(1deg) translate(0px);
+-o-transform: rotate(2deg) scale(1) skew(1deg) translate(0px);
+-ms-transform: rotate(2deg) scale(1) skew(1deg) translate(0px);
 }
 
 nav a:hover, nav a:visited{
@@ -86,11 +93,13 @@ nav a:hover{
 	color: white;
 	padding: 0px 5% 10px;
 	text-align: justify;
+	background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#FF6900), to(#A00B28))
 }
 
 .footer-container footer{
 	color: white;
 	padding: 20px 0;
+	font-family: 'Pacifico', cursive;
 }
 
 .clearfix:before,
